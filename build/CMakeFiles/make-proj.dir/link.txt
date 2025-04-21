@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/make-proj.dir/src/ProjDoc.cpp.o" "CMakeFiles/make-proj.dir/src/main.cpp.o" -o make-proj  _deps/fmt-build/libfmt.a

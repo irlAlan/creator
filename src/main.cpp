@@ -1,8 +1,6 @@
-#include <algorithm>
 #include <iostream>
 #include <vector>
 #include <cstdlib>
-#include <filesystem>
 #include <fstream>
 
 #include <fmt/core.h>
@@ -53,6 +51,7 @@ void build_program(const ProjDoc& doc){
 
 int main(int argc, char *argv[]) {
 
+  // get rid of project name
   std::vector<std::string> cmd_args(argv, argv+argc);
   cmd_args.erase(cmd_args.begin());
 
@@ -90,6 +89,5 @@ int main(int argc, char *argv[]) {
         break;
       }
   }
-
   return 0;
 }

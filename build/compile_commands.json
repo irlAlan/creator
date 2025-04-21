@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/irlalan/secret/Cpp/creator/build",
+  "command": "/usr/bin/c++  -I/home/irlalan/secret/Cpp/creator/build/_deps/fmt-src/include -isystem /home/irlalan/secret/Cpp/creator/build/_deps/tomlplusplus-src/include -std=c++17 -o CMakeFiles/make-proj.dir/src/ProjDoc.cpp.o -c /home/irlalan/secret/Cpp/creator/src/ProjDoc.cpp",
+  "file": "/home/irlalan/secret/Cpp/creator/src/ProjDoc.cpp",
+  "output": "CMakeFiles/make-proj.dir/src/ProjDoc.cpp.o"
+},
+{
+  "directory": "/home/irlalan/secret/Cpp/creator/build",
+  "command": "/usr/bin/c++  -I/home/irlalan/secret/Cpp/creator/build/_deps/fmt-src/include -isystem /home/irlalan/secret/Cpp/creator/build/_deps/tomlplusplus-src/include -std=c++17 -o CMakeFiles/make-proj.dir/src/main.cpp.o -c /home/irlalan/secret/Cpp/creator/src/main.cpp",
+  "file": "/home/irlalan/secret/Cpp/creator/src/main.cpp",
+  "output": "CMakeFiles/make-proj.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/irlalan/secret/Cpp/creator/build/_deps/fmt-build",
+  "command": "/usr/bin/c++  -I/home/irlalan/secret/Cpp/creator/build/_deps/fmt-src/include -std=c++17 -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/irlalan/secret/Cpp/creator/build/_deps/fmt-src/src/format.cc",
+  "file": "/home/irlalan/secret/Cpp/creator/build/_deps/fmt-src/src/format.cc",
+  "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.o"
+},
+{
+  "directory": "/home/irlalan/secret/Cpp/creator/build/_deps/fmt-build",
+  "command": "/usr/bin/c++  -I/home/irlalan/secret/Cpp/creator/build/_deps/fmt-src/include -std=c++17 -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/irlalan/secret/Cpp/creator/build/_deps/fmt-src/src/os.cc",
+  "file": "/home/irlalan/secret/Cpp/creator/build/_deps/fmt-src/src/os.cc",
+  "output": "_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.o"
+}
+]

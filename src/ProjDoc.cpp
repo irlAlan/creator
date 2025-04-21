@@ -148,16 +148,6 @@ bool ProjDoc::is_file(std::string_view file) const{
   return std::filesystem::is_regular_file(file) ? true : false;
 }
 
-// std::string ProjDoc::append_string(std::string_view str1,
-//                                    std::string_view str2) {
-//   return {std::string(str1).append(str2)};
-// }
-
-// std::string ProjDoc::s_append_string(std::string_view str1,
-//                                      std::string_view str2) {
-//   return {std::string(str1).append(str2)};
-// }
-
 std::string ProjDoc::get_directory_name() const { return this->projName_; }
 
 void ProjDoc::set_proj_name(std::string_view proj_name){ this->projName_ = proj_name;}
